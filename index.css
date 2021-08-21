@@ -1,0 +1,23 @@
+#myBtn {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+#myBtn:hover {
+  background-color: #f44336;
+  color: white;
+}
+#Btn {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+#Btn:hover {
+  background-color: #f44336;
+  color: white;
+}
+body {
+text-align : center;
+}

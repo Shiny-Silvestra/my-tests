@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Discount</title>
+	</head>
+	<body>
+		<h1 id = "discount">Discount
+                </h1>
+		<script>
+      			let text;
+			var age =  18;
+
+			if( age < 6)
+				{
+					text = "Free";
+				}
+			else if(age >=6 && age <=17 )
+				{
+					text = "Child Discount";
+				}
+			else if( age >= 18 && age <=26)
+				{
+					text = "Student Discount";
+				}
+         		else if(  age >=27 && age <=66)
+				{
+					text = "Full Price";
+				}
+      			else if( age >=67 )
+				{
+					text = "Senior Citizen Discount";
+				}
+      			else    {
+      				        text =  "No Discount";
+    			        }
+      				
+		       document.getElementById("discount").innerHTML = text;
+
+
+    	         </script>
+	</body>
+</html>
