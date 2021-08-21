@@ -1,0 +1,20 @@
+div 
+ {
+  width: 200px;
+  height: 200px;
+ }
+h3
+ {
+  background-color: red;
+  position: relative;
+  animation: name 5s linear 2s infinite alternate;
+ }
+@keyframes name 
+ {
+  0%   { font-size:50px;left:0px; top:0px;}
+  25%  {font-size:20px;background-color:yellow; left:200px; top:0px;}
+  50%  {font-size:50px;background-color:blue; left:200px; top:200px;}
+  75%  {font-size:20px;background-color:green; left:0px; top:200px;}
+  100% {font-size:50px;background-color:red; left:0px; top:0px;}
+ }
+
